@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scenes/Bloque.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/Jugador.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Coleccionable.tscn" type="PackedScene" id=3]
 
 [node name="Nivel_0" type="Node2D"]
 
@@ -58,3 +59,12 @@ position = Vector2( 608, 320 )
 
 [node name="Bloque6" parent="." instance=ExtResource( 1 )]
 position = Vector2( 192, 160 )
+
+[node name="Coleccionable" parent="." instance=ExtResource( 3 )]
+position = Vector2( 300, 359 )
+
+[node name="Coleccionable2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 430 )
+
+[node name="Coleccionable3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 123, 297 )
